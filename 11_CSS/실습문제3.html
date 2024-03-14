@@ -4,17 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+        }
+        .box {
+            background-color: lightgray;
+            border: 1px solid gray;
+            padding: 10px;
+        }
+        #td1 {
+            text-decoration: none;
+        }
+        #td2{
+            text-decoration: underline;
+        }
+        #td3{
+            font-style: italic;
+        }
+        #td4{
+            font-family: "궁서체"
+        }
+    </style>
 
 </head>
 <body>
     
     <h1>이것은 헤더입니다.</h1>
 
-    <p>이것은 단락입니다. 이 단락에서는 <span>이탤릭체와 밑줄을</span> 사용합니다. 링크는 <a href="#" target="_blank">여기</a>를 클릭하세요.</p>
+    <p>이것은 단락입니다. 이 단락에서는 <span id="td3">이탤릭체</span>와 <span id="td2">밑줄</span>을 사용합니다. 링크는 <a href="#" target="_blank" id="td1">여기</a>를 클릭하세요.</p>
 
-    <h2>이것은 박스 제목입니다. </h2>
+    <div class="box">
+        <h2 id="td4">이것은 박스 제목입니다. </h2>
 
-    <h3>이것은 소제목입니다.</h3>
-
+    <p >이것은 박스 내용입니다. 이 단락에서도 <span id="td3">이탤릭체</span>와 <span id="td2">밑줄</span>을 사용합니다.</p>
+    </div>
+    
+    <h3 id="td4">이것은 소제목입니다.</h3>
+    <p >이것은 다른 단락입니다.</p>
 </body>
 </html>

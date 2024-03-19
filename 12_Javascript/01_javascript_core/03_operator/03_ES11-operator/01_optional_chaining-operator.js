@@ -6,5 +6,12 @@
 
 var obj = null;
 
-var val = obj.value;
+// var val = obj.value;     //npe(null pointer exception) 발생
+// console.log(val);
+
+var val = obj?.value;     //undefined ,npe 방지
 console.log(val);
+
+var str = '';           // Falsy하지만 null이나 undefined는 아니다.
+var len = str?.length;
+console.log(len);

@@ -13,10 +13,13 @@ var student = {
     getInfo: function () {
         return `${this.name}(은)는 ${this.age}세 입니다.`;
     }
-}
+};          // 리터럴 객체의 중괄호는 코드 블록(if나 for문의 중괄호)와는 다르다. (; 을 붙인다.)
 
 console.log(student);
 console.log(typeof student);
 
 console.log(student.getInfo);
+console.log(student.getInfo());
+
+student.name = '강감찬';
 console.log(student.getInfo());

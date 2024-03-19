@@ -14,7 +14,7 @@ test = true;
 console.log(typeof test);
 
 test = null;
-console.log(typeof test);
+console.log( test);
 
 test = Symbol();
 console.log(typeof test);

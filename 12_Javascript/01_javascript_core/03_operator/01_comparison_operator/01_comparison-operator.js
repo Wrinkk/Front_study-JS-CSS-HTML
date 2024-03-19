@@ -17,4 +17,10 @@ console.log(`0 === false:, ${0 === false} `);
 console.log(`NaN == NaN:, ${NaN == NaN} `);
 console.log(`NaN === NaN:, ${NaN === NaN} `);
 
+/** NaN인지 판별하기 위해서는 Number에서 제공하는 isNaN함수를 활용해야 한다. */
+
 console.log(`Number.isNaN(NaN):, ${Number.isNaN(NaN)} `);
+
+/** 3. 일치하지 않는 값 비교 */
+console.log(`1 != '1': ${1!= '1'} `);
+console.log(`1 !== '1': ${1!== '1'} `);

@@ -16,6 +16,12 @@
 
     console.log(10/4);
 
+    /**
+     * 숫자 타입은 추가적으로 세 가지 특별한 값도 표현 할 수 있다.
+     * Infinity : 양의 무한대
+     *  NaN : 음의 무한대
+     * -Infinity : 산술 연산 불가(not-a-number)
+     */
     console.log(10/0);
     console.log(10/-0);
-    console.log(1*'문자열');
+    console.log(1*'문자열');  // 문자열은 ''와 "" 모두 사용 가능.

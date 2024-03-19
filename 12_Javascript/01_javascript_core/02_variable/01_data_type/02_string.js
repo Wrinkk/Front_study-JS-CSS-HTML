@@ -15,4 +15,5 @@ var lastName = '홍';
 var firstName = '길동';
 console.log('제이름은 ' + lastName + firstName + '입니다.');
 
-console.log('제이름은 ${lastName}${firstName}입니다.' );
+/** 표현식 삽입(${})과 백틱을 함께 사용하면 문자열 연산보다 가독성도 좋고 간편하게 문자열을 조합할 수 있다. */
+console.log(`제이름은 ${lastName}${firstName}입니다.`);

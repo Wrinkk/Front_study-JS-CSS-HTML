@@ -23,5 +23,7 @@ function repeat(func, count) {
     }
 }
 
-var returnFunc = repeat(hello, 5);
-returnFunc();
+// var returnFunc = repeat(hello, 5);
+// returnFunc();
+
+repeat(hello, 5)();

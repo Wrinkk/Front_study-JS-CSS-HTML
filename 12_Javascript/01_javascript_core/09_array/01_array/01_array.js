@@ -15,3 +15,15 @@ console.log(arr2.length);
 const arr3 = Array(10);
 console.log(arr3);
 console.log(arr3.length);
+
+/**
+ * 자바스크립트에서 일반 객체와 배열은 큰 차이는 없고 다만 프로퍼티 키가 숫자형이라는 것과 length라는 추가 프로퍼티를 가진다는 정도이다.
+ */
+const arr4 = Array(1, 2, 3);
+console.log(arr4);
+
+for(let i = 0; i < arr4.length; i++) {  
+    console.log(arr4[i]);
+}
+
+console.log(typeof arr4);

@@ -36,5 +36,7 @@ const greedyStudent = {
 }
 console.log(greedyStudent.activate);          // user2에서 상속
 console.log(greedyStudent.passion);           // student에서 상속
-student.__proto__ = greedyStudent;
-console.log(student.class);
+
+// 순환 에러
+// student.__proto__ = greedyStudent;
+// console.log(student.class);
